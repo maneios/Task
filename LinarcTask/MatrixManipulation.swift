@@ -44,16 +44,16 @@ class MatrixManipulation: UIViewController {
         
         for i in (1..<n) {
             for j in (1..<n) {
-                if (([tempMatrix[i], [j]] > [tempMatrix[i - 1] ,[j]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i + 1] ,[j]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i],[j - 1]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i], [j + 1]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i - 1],[j - 1]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i + 1],[j + 1]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i - 1],[j + 1]])
-                    && ([tempMatrix[i], [j]] > [tempMatrix[i + 1],[j - 1]])) {
-                    count += 1;
-                }
+//                if (([tempMatrix[i], [j]] > [tempMatrix[i - 1] ,[j]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i + 1] ,[j]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i],[j - 1]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i], [j + 1]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i - 1],[j - 1]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i + 1],[j + 1]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i - 1],[j + 1]])
+//                    && ([tempMatrix[i], [j]] > [tempMatrix[i + 1],[j - 1]])) {
+//                    count += 1;
+//                }
             }
         }
         return count
